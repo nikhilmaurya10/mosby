@@ -102,5 +102,5 @@ public class StarView extends ImageView {
     }
   }
 
-  // TODO increase hit area
+  // TODO increase hit area.
 }

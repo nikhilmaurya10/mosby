@@ -63,6 +63,7 @@ public class SearchResultAdapter extends MailsAdapter implements SearchResultAda
   }
 
   public Mail getLastMailInList() {
-    return items == null ? null : items.get(items.size() - 1);
+    if (items == null || items.size() == 0) return null;
+    else return items.get(items.size() - 1);
   }
 }
